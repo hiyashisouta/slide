@@ -1,44 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  background: #222 url("images/bg.png") repeat;
-}
-
-body {
-  _width: 70%;
-  color: #888;
-  font: 14px/20px Helvetica, Arial, sans-serif;
-  margin: 20px auto 0;
-  max-width: 800px;
-  text-align: center;
-  text-shadow: 0 -2px 1px #000;
-  -webkit-font-smoothing: antialiased;
-  }
-
-h1 {
-  font: 40px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-  font-weight: 200;
-  }
-
-h2 {
-  font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 40px;
-  }
-
-#wrapper {
-  padding: 20px;
-  }
-
-p,h3,h4,pre {
-  text-align: left;
-  max-width: 540px;
-  margin: 0 auto 20px;
-  }
-
 .rslides {
   margin: 0 auto 40px;
   }
@@ -92,45 +51,6 @@ p,h3,h4,pre {
   font-weight: bold;
   }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  }
-
-#download {
-  background: #333;
-  background: rgba(255,255,255,.1);
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 60px auto;
-  max-width: 500px;
-  padding: 20px;
-  }
-
-#download:hover {
-  background: rgba(255,255,255,.15);
-  }
-
-.footer {
-  font-size: 11px;
-  }
-
-/* Callback example */
-
-h3 {
-  font: 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #fff;
-  }
-
-.events {
-  list-style: none;
-  }
 
 .callbacks_container {
   margin-bottom: 50px;
@@ -223,12 +143,3 @@ h3 {
 #slider3-pager a {
   padding: 0;
 }
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-  .callbacks_nav {
-    top: 47%;
-    }
-  }
